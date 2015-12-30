@@ -12,7 +12,7 @@ var index = require('./routes/index');
 var api = require('./routes/api');
 var authenticate = require('./routes/authenticate')(passport);
 var mongoose = require('mongoose');                         //add for Mongo support
-mongoose.connect('mongodb://dev:macandcheese@ds037155.mongolab.com:37155/heroku_97sgcmrx');              //connect to Mongo
+mongoose.connect('mongodb://abc:123@ds037155.mongolab.com:37155/heroku_97sgcmrx');              //connect to Mongo
 var app = express();
 
 // view engine setup
